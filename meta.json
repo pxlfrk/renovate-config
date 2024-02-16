@@ -1,0 +1,20 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "matchPackagePatterns": ["^(?:amd64/)?nextcloud$"],
+      "matchDatasources": ["docker"],
+      "sourceUrl": "https://nextcloud.com/changelog"
+    },
+    {
+      "matchPackageNames": ["goauthentik/authentik"],
+      "matchDatasources": ["docker"],
+      "sourceUrl": "https://goauthentik.io/docs/releases/"
+    },
+    {
+      "matchPackageNames": ["grafana/grafana"],
+      "matchDatasources": ["docker"],
+      "sourceUrl": "https://github.com/grafana/grafana"
+    }
+  ]
+}
