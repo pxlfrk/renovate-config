@@ -12,6 +12,16 @@
       "sourceUrl": "https://github.com/goauthentik/authentik"
     },
     {
+      "matchPackageNames": ["ghcr.io/requarks/wiki"],
+      "matchDatasources": ["docker"],
+      "sourceUrl": "https://github.com/requarks/wiki"
+    },
+    {
+      "matchPackageNames": ["portainer/portainer-ee"],
+      "matchDatasources": ["docker"],
+      "sourceUrl": "https://github.com/portainer/portainer/"
+    },
+    {
       "matchPackageNames": ["grafana/grafana"],
       "matchDatasources": ["docker"],
       "sourceUrl": "https://github.com/grafana/grafana"
