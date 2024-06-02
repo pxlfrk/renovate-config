@@ -25,6 +25,11 @@
       "matchPackageNames": ["grafana/grafana"],
       "matchDatasources": ["docker"],
       "sourceUrl": "https://github.com/grafana/grafana"
-    }
+    },
+    {
+      "matchPackageNames": ["duplicati/duplicati"],
+      "matchDatasources": ["docker"],
+      "sourceUrl": "https://github.com/duplicati/duplicati"
+    },
   ]
 }
