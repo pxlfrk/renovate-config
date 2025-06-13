@@ -30,6 +30,6 @@
       "matchPackageNames": ["duplicati/duplicati"],
       "matchDatasources": ["docker"],
       "sourceUrl": "https://github.com/duplicati/duplicati"
-    },
+    }
   ]
 }
